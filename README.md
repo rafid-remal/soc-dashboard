@@ -125,8 +125,8 @@ ssh wronguser@localhost
 
 ```bash
 {
-  "192.168.1.10": 8,
-  "127.0.0.1": 5
+  "142.112.84.23": 8,
+  "66.185.70.41": 5
 }
 ```
 ## 🛠️ System Requirements

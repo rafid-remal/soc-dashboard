@@ -96,19 +96,49 @@ venv\Scripts\activate
 ```bash
 pip install flask psutil
 ```
-### 5. Run the application
+### ▶️ Run the application
 
 ```bash
 python app.py
 ```
-### 6. Open in browser
+### 📊 Open in browser
 
 ```bash
 http://127.0.0.1:5000
 ```
-### 7. 🧪 Testing the project
+### 🧪 Testing the project
 
 ```bash
 ssh wronguser@localhost
 ```
 
+## 📡 How It Works
+
+- Linux logs authentication attempts
+- Python reads system logs using journalctl
+- Failed login IPs are extracted
+- Repeated failures are detected as brute-force attacks
+- Flask serves results via API
+- Dashboard visualizes data in browser
+
+## 🔥 Example Output
+
+```bash
+{
+  "192.168.1.10": 8,
+  "127.0.0.1": 5
+}
+```
+## 🛠️ System Requirements
+
+- Linux OS (Ubuntu/Kali recommended)
+- Python 3.8+
+- SSH service enabled
+
+## 🚀 Future Improvements
+
+- Real-time WebSocket dashboard
+- Email/SMS alert system
+- GeoIP attacker tracking
+- ML-based anomaly detection
+- Docker deployment

@@ -77,7 +77,7 @@ If you want next upgrade, I can help you
 ### 1. Clone the repository
 
 ```bash
-git clone git@github.com:YOUR_USERNAME/soc-dashboard.git
+git clone https://github.com/rafid-remal/soc-dashboard.git
 cd soc-dashboard
 ```
 ### 2. Create virtual environment (recommended)

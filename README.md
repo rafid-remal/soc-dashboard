@@ -54,8 +54,8 @@ soc-dashboard/
 
 
 ---
-
-# 🔥 What I improved for you
+```
+## 🔥 What I improved for you
 
 ✔ Added full installation commands  
 ✔ Added run instructions  
@@ -70,7 +70,7 @@ If you want next upgrade, I can help you
 
 👉 Follow the installation steps below
 
-# 🛡️ SOC Mini Security Monitoring Dashboard
+## 🛡️ SOC Mini Security Monitoring Dashboard
 
 ## ⚙️ How to Run This Project
 
@@ -79,36 +79,36 @@ If you want next upgrade, I can help you
 ```bash
 git clone git@github.com:YOUR_USERNAME/soc-dashboard.git
 cd soc-dashboard
-
+```
 ### 2. Create virtual environment (recommended)
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-
+```
 ### 3. Create virtual environment (Windows)
 
 ```bash
 venv\Scripts\activate
-
+```
 ### 4. Install dependencies
 
 ```bash
 pip install flask psutil
-
+```
 ### 5. Run the application
 
 ```bash
 python app.py
-
+```
 ### 6. Open in browser
 
 ```bash
 http://127.0.0.1:5000
-
+```
 ### 7. 🧪 Testing the project
 
 ```bash
 ssh wronguser@localhost
-
+```
 
